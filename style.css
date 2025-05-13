@@ -24,6 +24,12 @@
       padding: 10px 199px 15px 0px;
       font-size: 20px;
     }
+
+    .brand-logo {
+      max-width: 200px;
+      height: auto;
+    }
+
     .card {
       background-color: white;
       border-radius: 12px;
