@@ -1,14 +1,14 @@
+function scrollToDetails() {
+  const target = document.querySelector('.ticket-info');
+  if (target) {
+    target.scrollIntoView({ behavior: 'smooth' });
+  }
+}
+
 function showModal() {
-  document.getElementById("codeModal").style.display = "flex";
+  document.getElementById('codeModal').style.display = 'flex';
 }
 
 function closeModal() {
-  document.getElementById("codeModal").style.display = "none";
-}
-
-function scrollToDetails() {
-  const details = document.getElementById("details");
-  if (details) {
-    details.scrollIntoView({ behavior: "smooth" });
-  }
+  document.getElementById('codeModal').style.display = 'none';
 }
