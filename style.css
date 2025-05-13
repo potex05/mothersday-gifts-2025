@@ -180,9 +180,18 @@ body {
 .ticket-info {
   background-color: white;
   margin-top: 10px;
-  width: 350px;
+  /＊ width: 350px; ＊/
   font-size: 14px;
   color: #333;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* スマホだけに適用するようにする場合（レスポンシブ対応） */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
 }
 
 .ticket-info_condition > td {
