@@ -251,6 +251,7 @@
 
     .ticket-info summary {
       font-weight: bold;
+      font-size: 15px;
       cursor: pointer;
       color: #1e3932;
       margin-bottom: 2px;
