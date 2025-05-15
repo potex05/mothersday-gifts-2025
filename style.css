@@ -13,7 +13,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      /* width: 100%; */
+      width: 100%;
       max-width: 400px; /* スマホに収まる幅（必要なら変更可） */
       /* padding: 16px;  */
       box-sizing: border-box;
@@ -104,7 +104,7 @@
 
     .ticket-background{
       background: #f6f6f6;
-      padding: 10px;
+      padding: 10px 20px 10px 20px;
     }
 
     .body-text {
