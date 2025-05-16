@@ -44,7 +44,6 @@
     }
       .ticket-top {
         position: relative;
-        padding-left: 12px; /* 縦線分の余白 */
     }
 
       .ticket-top::before {
