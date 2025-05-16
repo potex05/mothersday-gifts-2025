@@ -84,7 +84,7 @@
 
     .drink-images {
       display: flex;
-      justify-content: space-around;
+      justify-content: space-evenly;
       padding: 10px 0;
       background-color: #1e3932;
       user-select: none;
