@@ -54,6 +54,7 @@
         width: 40px; /* 線の太さ */
         height: 100%;
         background-color: #417d91; /* 線の色（白などお好みに） */
+        z-index: 1;
     }
 
     .header {
