@@ -77,6 +77,11 @@
       text-align: right;
     }
 
+    .value {
+      z-index: 2;
+    }
+
+
     .drink-images {
       display: flex;
       justify-content: space-around;
@@ -99,6 +104,7 @@
       font-size: 20px;
       margin: 0;
       font-weight: bold;
+      z-index: 2;
     }
 
     .ticket-header .icons {
